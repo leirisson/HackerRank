@@ -1,0 +1,54 @@
+Com base nas informações fornecidas, vou elaborar uma proposta de sistema para treinar a linguagem Python que atenda aos requisitos de cadastrar, listar, pesquisar, excluir e adicionar usuários. O sistema será desenvolvido como um terminal de quiz interativo, inspirado no tutorial fornecido no link [[1](https://realpython.com/python-quiz-application/)].
+
+**Proposta de Sistema: Treinador de Python Quiz**
+
+**Visão Geral:**
+O Treinador de Python Quiz é um programa interativo desenvolvido em Python que permite aos usuários treinarem suas habilidades na linguagem Python, respondendo a perguntas relacionadas a diversos tópicos. O programa permite cadastrar, listar, pesquisar, excluir e adicionar usuários que desejam participar do treinamento.
+
+**Funcionalidades:**
+1. **Cadastro de Usuários:**
+   - O sistema permitirá o cadastro de novos usuários, solicitando um nome de usuário único.
+   - As informações dos usuários serão armazenadas em um arquivo de dados dedicado.
+
+2. **Listagem de Usuários:**
+   - Os usuários cadastrados poderão ser listados, exibindo seus nomes de usuário.
+
+3. **Pesquisa de Usuários:**
+   - Os usuários poderão pesquisar por nomes de usuário específicos para verificar se estão cadastrados.
+
+4. **Exclusão de Usuários:**
+   - Os usuários terão a opção de excluir seus perfis do sistema, removendo suas informações do arquivo de dados.
+
+5. **Adição de Usuários:**
+   - Os administradores do sistema poderão adicionar novos usuários ao sistema, inserindo seus nomes de usuário.
+
+6. **Quiz Interativo:**
+   - O sistema oferecerá uma série de perguntas relacionadas à linguagem Python, abrangendo tópicos diversos.
+   - Cada pergunta terá um conjunto de alternativas de resposta, podendo haver mais de uma resposta correta.
+   - Os usuários poderão escolher as respostas e receberão feedback imediato sobre a correção.
+   - Uma explicação sobre a resposta correta será fornecida após a escolha da resposta.
+
+7. **Persistência de Dados:**
+   - As informações dos usuários cadastrados e seu progresso no quiz serão armazenados em um arquivo de dados.
+
+8. **Interface de Linha de Comando (CLI):**
+   - O sistema será executado na linha de comando, permitindo uma interação fácil com os usuários.
+
+**Fluxo de Desenvolvimento:**
+1. Começaremos criando um sistema básico de quiz que permita ao usuário responder perguntas e receber feedback imediato sobre sua escolha.
+
+2. Implementaremos o cadastro, listagem, pesquisa e exclusão de usuários, garantindo que as informações dos usuários sejam armazenadas de forma adequada.
+
+3. Criaremos um mecanismo de adição de novos usuários, que exigirá autenticação de administradores.
+
+4. Refinaremos a interface de usuário, melhorando a usabilidade e a aparência do sistema.
+
+5. Faremos a integração da persistência de dados para manter o progresso dos usuários e informações do quiz.
+
+**Requisitos Técnicos:**
+- Python 3.x
+- Bibliotecas Python: input/output, listas, dicionários, loops, condicionais
+- Uso de funções para modularizar o código
+- Manipulação de arquivos para armazenar dados de usuários e progresso no quiz
+
+Com base nesse projeto, os usuários poderão aprimorar suas habilidades em Python de forma interativa, enquanto os administradores têm o controle sobre a gestão de usuários. O sistema pode ser expandido posteriormente para incluir mais recursos e tópicos de perguntas.

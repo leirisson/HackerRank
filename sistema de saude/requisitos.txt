@@ -1,0 +1,62 @@
+Claro, aqui está um problema relacionado ao sistema de saúde que você pode usar para treinar os fundamentos da linguagem Python:
+
+**Problema: Registro de Atividades de Saúde**
+
+Em um hospital, há a necessidade de registrar informações relacionadas às atividades de saúde dos pacientes. Isso inclui registrar detalhes sobre sua alimentação e exercícios diários. Você deve criar um sistema simples em Python para gerenciar esse registro.
+
+Aqui estão os requisitos básicos para o sistema:
+
+1. O sistema deve permitir que o usuário selecione o nome do paciente entre duas opções: "Nilesh" ou "Shanu" [[2](https://www.geeksforgeeks.org/health-management-system-using-python/)].
+
+2. O sistema deve permitir que o usuário selecione uma ação: "Log" (registar) ou "Retrieve" (recuperar) [[2](https://www.geeksforgeeks.org/health-management-system-using-python/)].
+
+3. O sistema deve permitir que o usuário selecione uma tarefa: "Food" (alimentação) ou "Exercise" (exercício) [[2](https://www.geeksforgeeks.org/health-management-system-using-python/)].
+
+4. Se o usuário selecionar "Log", o sistema deve permitir que o usuário insira detalhes sobre a atividade (alimentação ou exercício) realizada pelo paciente naquele dia. Os detalhes devem ser registrados em um arquivo de texto com o nome apropriado (por exemplo, "nilesh food.txt") e incluir a data e hora do registro [[2](https://www.geeksforgeeks.org/health-management-system-using-python/)].
+
+5. Se o usuário selecionar "Retrieve", o sistema deve exibir os detalhes previamente registrados para a atividade selecionada pelo paciente e nome em questão. Os detalhes devem ser lidos do arquivo correspondente e exibidos na tela [[2](https://www.geeksforgeeks.org/health-management-system-using-python/)].
+
+Aqui está um exemplo de fluxo de interação com o sistema:
+
+```
+Selecione o nome do paciente:
+1. Nilesh
+2. Shanu
+Digite sua escolha: 1
+
+Selecione a ação:
+1. Log
+2. Retrieve
+Digite sua escolha: 1
+
+Selecione a tarefa:
+1. Food
+2. Exercise
+Digite sua escolha: 1
+
+Digite os detalhes da atividade: Consumiu um prato de salada.
+
+Registro de alimentação de Nilesh registrado com sucesso!
+
+...
+
+Selecione o nome do paciente:
+1. Nilesh
+2. Shanu
+Digite sua escolha: 1
+
+Selecione a ação:
+1. Log
+2. Retrieve
+Digite sua escolha: 2
+
+Selecione a tarefa:
+1. Food
+2. Exercise
+Digite sua escolha: 1
+
+Detalhes registrados de alimentação para Nilesh:
+2023-08-13 17:30:10: Consumiu um prato de salada.
+```
+
+Lembre-se de utilizar as funções e estruturas de controle do Python para implementar este sistema de registro de atividades de saúde. Isso permitirá que você pratique a captura de entrada do usuário, a escrita e leitura de arquivos, e a organização lógica do programa.

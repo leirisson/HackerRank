@@ -1,0 +1,66 @@
+**Problema: Sistema de Pedidos em uma Lanchonete**
+
+Neste problema, você vai simular um sistema de pedidos em uma lanchonete utilizando os conceitos básicos da linguagem Python. Aqui está o cenário e os requisitos:
+
+Você foi designado para criar um sistema simples de pedidos para uma lanchonete. O sistema deve permitir que os clientes escolham itens do cardápio e façam seus pedidos. Ao final, o sistema deve mostrar um resumo do pedido, incluindo o subtotal, o total após aplicar um possível desconto e a média do valor dos pedidos.
+
+Aqui está o cardápio com os itens disponíveis e seus preços:
+
+```
+=================================
+| COD |    PRODUTO    | VALOR  |
+| 100 | Superburger   | 6.50$  |
+| 101 | Hamburger     | 4.50$  |
+| 102 | Mini Pizza    | 5.00$  |
+| 103 | Meat Pie      | 4.00$  |
+| 200 | Chips         | 3.00$  |
+| 201 | Soft Drink    | 2.00$  |
+| 202 | Ice Cream     | 2.50$  |
+| 203 | Juice         | 3.00$  |
+=================================
+```
+
+Requisitos do programa:
+
+1. Crie um dicionário chamado `menu` com os códigos dos produtos como chaves e uma lista contendo o nome do produto e seu preço como valor.
+2. Inicialize um dicionário vazio chamado `pedido` para armazenar os itens do pedido e suas quantidades.
+3. Utilize um loop para permitir que o cliente insira os códigos dos produtos que deseja pedir e suas quantidades. Se o código for inválido, mostre uma mensagem de erro.
+4. Se o cliente inserir um código de produto do menu principal (100-103), peça a quantidade desejada e adicione o item e sua quantidade ao dicionário `pedido`.
+5. Se o cliente inserir um código de produto adicional (200-203), peça a quantidade desejada e adicione o item e sua quantidade ao dicionário `pedido`.
+6. Se o cliente quiser aplicar um desconto, pergunte se ele possui um voucher de desconto. Se sim, aplique um desconto de 10% ao subtotal do pedido.
+7. Calcule o subtotal do pedido multiplicando o preço de cada item pela sua quantidade.
+8. Ao final, mostre um resumo do pedido, incluindo cada item com sua quantidade, preço unitário e total.
+9. Mostre também o subtotal, o total após aplicar o desconto (se aplicável) e a média do valor dos pedidos.
+10. Implemente a interface de forma amigável e intuitiva, solicitando os dados do cliente conforme mostrado no exemplo do enunciado [[3](https://groups.google.com/g/python-brasil/c/9djRBmBKrys)].
+
+Exemplo de interação:
+
+```
+*** Lanchonete FastFood ***
+1. Superburger
+2. Hamburger
+3. Mini Pizza
+4. Meat Pie
+5. Chips
+6. Soft Drink
+7. Ice Cream
+8. Juice
+
+Faça seu pedido. Digite o código do produto (ou 0 para finalizar): 1
+Digite a quantidade: 2
+
+Faça seu pedido. Digite o código do produto (ou 0 para finalizar): 5
+Digite a quantidade: 3
+
+Deseja aplicar um desconto com o voucher? (S/N): S
+
+*** Resumo do Pedido ***
+Superburger (2) - Preço unitário: 6.50$, Total: 13.00$
+Chips (3) - Preço unitário: 3.00$, Total: 9.00$
+
+Subtotal: 22.00$
+Total com Desconto: 19.80$
+Média dos Pedidos: 19.80$
+```
+
+Este problema permitirá que você pratique a utilização de dicionários, loops, entrada do usuário e formatação de saída em Python.
